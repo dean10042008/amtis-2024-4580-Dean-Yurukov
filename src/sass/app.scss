@@ -101,6 +101,10 @@ main #hero-buttons button {
     color:#CA7111;
 }
 
+#group {
+
+}
+
 #landing-page {
     margin: 5em 0;
 }
@@ -166,6 +170,7 @@ main #hero-buttons button {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 3em;
 }
 
 #chef-boss #chef-wrapper img {
@@ -213,6 +218,7 @@ main #hero-buttons button {
     font-weight: 700;
     font-size: 80px;
     line-height: 80px;
+    margin-top: 1em;
 }
 
 #desserts > img {
@@ -313,6 +319,7 @@ main #hero-buttons button {
 #feedback {
     display: flex;
     justify-content: space-evenly;
+    align-items: flex-end;
 }
 
 #feedback-right {
@@ -339,6 +346,10 @@ main #hero-buttons button {
     margin-top: 1em;
 }
 
+#feedback-left {
+    margin-top: 3em;
+}
+
 #feedback-left h6 {
     font-family: 'Manrope';
     font-weight: 700;
@@ -359,12 +370,15 @@ main #hero-buttons button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #FBF4DF;
+    margin-top: 9em;
 }
 
 #form-title-subtitle {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 5em;
 }
 
 #form-title-subtitle h1 {
@@ -388,7 +402,9 @@ main #hero-buttons button {
 
 #form-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    margin-top: 4em;
+    gap: 3em;
 }
 
 #footer-info {
@@ -412,14 +428,61 @@ main #hero-buttons button {
 
 #form-fill {
     flex-direction: column;
-    width: 40%;
+    width: 488px;
+    height: 593px;
     background-color: #F9EECD;
     padding: 64px 48px;
     border-radius: 8px;
 }
 
+form {
+    margin-top: -10em;
+}
+
+#form-fill img {
+    width: 150px;
+    position: relative;
+    top: -8em;
+    right: -18em;
+}
 
 #form-fill input, #form-fill label {
+    width: 90%;
     margin: 1em 0;
     display: block;
+    border-radius: 8px;
+}
+
+#form-fill input, #form-fill textarea {
+    border: 1px solid #E0E0E0;
+}
+
+#form-fill input {
+    width: 333px;
+    height: 48px;
+}
+
+#form-fill input::placeholder {
+    padding-left: 2em;
+}
+
+#form-fill textarea {
+    width: 392px;    
+    resize: none;
+    padding: 12px 16px;
+    border-radius: 8px;
+}
+
+#form-fill textarea::placeholder {
+    font-family: "Arial";
+}
+
+#form-fill button {
+    margin-top: 1em;
+    max-width: fit-content;
+    display: inline;
+    background-color: #9B582E;
+    padding: 8px 16px;
+    border-radius: 32px;
+    color: #fff;
 }
