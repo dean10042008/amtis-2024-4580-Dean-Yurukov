@@ -1,1 +1,3 @@
-// Продължи с твоя vanilla JavaScript код тук.
+let reqFor = fetch("http://localhost:4000/desserts");
+
+let 
