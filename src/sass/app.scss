@@ -19,7 +19,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
+    width: 100%;
 }
 
 header #logo-wrapper img {
@@ -99,10 +99,6 @@ main #hero-buttons button {
     background-color: transparent;
     border: 1px solid #CA7111;
     color:#CA7111;
-}
-
-#group {
-
 }
 
 #landing-page {
@@ -433,6 +429,7 @@ main #hero-buttons button {
     background-color: #F9EECD;
     padding: 64px 48px;
     border-radius: 8px;
+    margin-bottom: 106px;
 }
 
 form {
@@ -485,4 +482,128 @@ form {
     padding: 8px 16px;
     border-radius: 32px;
     color: #fff;
+}
+
+#media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 1400px;
+    gap: 70px;
+}
+
+#media > h1 {
+    font-family: "Noto Serif";
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+
+#media > img {
+    width: 132px;
+}
+
+.media-articles {
+    max-width: 750px;
+}
+
+.media-articles > h5 {
+    font-family: "Manrope";
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 12.38px;
+    text-transform: uppercase;
+}
+
+.media-articles > h3 {
+    font-family: 'Noto Serif';
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    color: #222222;
+    margin: 4px 0 16px 0;
+}
+
+.media-articles > h6 {
+    font-family: "Manrope";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24.05px;
+    color: #1E1E1E;
+}
+
+.media-articles > p {
+    line-height: 24px;
+    margin: 32px 0 64px 0;
+}
+
+.media-articles > a {
+    font-family: "Manrope";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
+    color: #fff;
+    background-color: #9B582E;
+    padding: 8px 16px;
+    border-radius: 32px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fdf8ec;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer > img {
+    width: 250px;
+}
+
+#footer-info {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin: 32px 0;
+}
+
+#footer-info > h5 {
+    font-family: "Manrope";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+#footer-nav {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 8px;
+}
+
+#footer-nav a {
+    font-family: "Manrope";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21.86px;
+    color: #3D3D3D;
+}
+
+#footer-policies {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+
+#footer-policies {
+    font-family: "Manrope";
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #6E6E6E;
 }
