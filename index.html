@@ -190,7 +190,7 @@
                     <h5>внимателно селектирани вкусове</h5>
 
                     <article id="desserts-details">
-                        <ul>
+                        <ul id="tableUl">
                             <li class="dessert-cards">
                                 <img src="./assets/Firefly%20Strawberry%20and%20basil%20with%20cream%20desert%20on%20a%20white%20background%2059251.png" alt="strawberries">
 
@@ -434,20 +434,20 @@
                     <article id="form-fill">
                         <img src="./assets/Firefly%20Single%20Basil%20leaves%20on%20a%20white%20background%201445.png" alt="firefly">
 
-                        <form action="#submit">
+                        <form action="#submit" id="submit-form">
                             <label for="name">Вашите имена</label>
-                            <input type="text" name="name" id="name" placeholder="Placeholder">
+                            <input type="text" name="name" id="name" placeholder="Placeholder" required>
 
                             <label for="phone">Телефон за връзка</label>
-                            <input type="text" name="phone" id="phone" placeholder="Placeholder">
+                            <input type="text" name="phone" id="phone" placeholder="Placeholder" required>
 
                             <label for="email">Имейл за контакти</label>
-                            <input type="text" name="email" id="email" placeholder="Placeholder">
+                            <input type="text" name="email" id="email" placeholder="Placeholder" required>
 
                             <label for="question">Вашият въпрос или заявка</label>
                             <textarea name="question" id="question" cols="40" rows="7" placeholder="Placeholder"></textarea>
 
-                            <button>Направи заявка</button>
+                            <button type="submit">Направи заявка</button>
                         </form>
                     </article>
                     </div>
